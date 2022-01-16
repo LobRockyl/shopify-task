@@ -1,0 +1,42 @@
+{
+  "name": "fastify-api",
+  "version": "1.0.0",
+  "description": "Shopify task",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "jest --verbose ./src",
+    "prepare": "husky install"
+  },
+  "author": "Purnashis",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^7.2.2",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "fastify": "^1.13.0",
+    "fastify-env": "^2.1.1",
+    "fastify-formbody": "^5.2.0",
+    "fastify-mongodb": "^0.9.1",
+    "fastify-swagger": "^0.15.3",
+    "jest": "^27.4.7",
+    "mongoose": "^5.3.14",
+    "point-of-view": "^5.0.0",
+    "supertest": "^6.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.7",
+    "prettier": "^2.5.1"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix"
+  }
+}
