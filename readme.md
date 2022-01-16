@@ -65,7 +65,21 @@ npm start
 
 ![Screenshot 2022-01-09 at 12 31 57 AM](https://user-images.githubusercontent.com/45710269/148656580-c189768a-c127-4f35-a30b-9c802e6415c5.png)
 
-## Prerequisites
+## About the final product:
 
-- Nodejs
-- MongoDB
+This is a simple inventory tracking web application. 
+The Feature chosen from the task:
+>Ability to assign/remove inventory items to a named group/collection
+
+Features:
+1. View all items along with IDs
+2. View items grouped by their group name i.e. group1 -> [item1,item2...] group2 -> [item3,item4...]
+3. Create item by clicking on Create button and entering name and/or group
+4. Edit item by inputting new name and/or group
+5. Delete item by inputting ID (ID can be grabbed from the view all items in dashboard)
+6. Corresponding validations and alerts of the activities
+
+![Screenshot 2022-01-17 at 4 45 05 AM](https://user-images.githubusercontent.com/45710269/149682099-928adaea-a47d-46ed-82df-577486c58cb8.png)
+
+
+
